@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Bakery Products</h1>
+    </div>
+    <div class="product-container" id="product-container">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="theme.jpeg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: $10.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="user-bg.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: $12.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more product cards here -->
+
+        <form id="add-product-form">
+            <input type="text" id="product-name" placeholder="Product Name">
+            <input type="text" id="product-description" placeholder="Product Description">
+            <input type="text" id="product-price" placeholder="Product Price">
+            <input type="text" id="product-image-url" placeholder="Image URL">
+            <button type="submit">Add Product</button>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
