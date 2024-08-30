@@ -1,2 +1,2 @@
 # Bakery
- Bakery static website
+ Bakery static website pages
